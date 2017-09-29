@@ -15,7 +15,7 @@
 `$ docker images`
 
 **Delete local image**  
-`$ docker rmi <IMAGE_ID>`
+`$ docker rmi IMAGE_ID`
 
 **Delete all image versions**  
 `$ docker rmi -f $(docker images IMAGE_NAME -q -a)`
