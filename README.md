@@ -29,8 +29,8 @@
 
 ## NPM
 **NPM scripts example**
-`"scripts": {`
-`  "docker:build": "npm run build && docker build -t IMAGE_NAME:latest .",`
-`  "docker:deploy": "npm run docker:build && docker tag IMAGE_NAME:latest $npm_config_repo/IMAGE_NAME:$npm_package_version && docker push $npm_config_repo/IMAGE_NAME:$npm_package_version",`
-`   "docker:run": "docker run -i -t IMAGE_NAME:$npm_package_version"`
+`"scripts": {`<space><space>
+`  "docker:build": "npm run build && docker build -t IMAGE_NAME:latest .",`<space><space>
+`  "docker:deploy": "npm run docker:build && docker tag IMAGE_NAME:latest $npm_config_repo/IMAGE_NAME:$npm_package_version && docker push $npm_config_repo/IMAGE_NAME:$npm_package_version",`<space><space>
+`   "docker:run": "docker run -i -t IMAGE_NAME:$npm_package_version"`<space><space>
 `}`
